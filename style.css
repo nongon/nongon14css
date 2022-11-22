@@ -1,0 +1,126 @@
+h3 {
+    font-size: 30px;
+    text-align: right;
+    color: rgb(248, 6, 6);
+}
+
+.nav {
+    list-style-type: none;
+    background-color: yellow;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bgcolor {
+    background-color: rgb(19, 18, 122);
+}
+
+#bgurl {
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+#bgurl:hover {
+    opacity: 1;
+}
+
+#bgurl img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+#hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+    float: left;
+}
+
+#hover:hover {
+    width: 300px;
+    background-color: royalblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#text {
+    background-color: blanchedalmond;
+    border: 10px solid pink;
+    /* เส้นกรอบ */
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    /* ขยายให้เท่ากัน */
+    text-indent: 20%;
+    /* การทำย่อหน้า */
+}
+
+#text1 {
+    background-color: blanchedalmond;
+    border: 10px solid pink;
+    /* เส้นกรอบ */
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    /* ขยายให้เท่ากัน */
+    text-indent: 20%;
+    /* การทำย่อหน้า */
+    float: left;
+    height: auto;
+    width: 520px;
+}
+
+#text2 {
+    background-color: blanchedalmond;
+    border: 10px solid pink;
+    /* เส้นกรอบ */
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    /* ขยายให้เท่ากัน */
+    text-indent: 20%;
+    /* การทำย่อหน้า */
+    height: auto;
+    float: left;
+    width: 520px;
+}
+
+#text3 {
+    background-color: blanchedalmond;
+    border: 10px solid pink;
+    /* เส้นกรอบ */
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    /* ขยายให้เท่ากัน */
+    text-indent: 20%;
+    /* การทำย่อหน้า */
+    float: left;
+    height: auto;
+    width: 520px;
+
+}
